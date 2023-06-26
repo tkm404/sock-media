@@ -3,11 +3,15 @@ import Friend from "./Friend";
 
 
 function FriendAddList() {
+  const styling = {
+    border: '1px solid black',
+    padding: '1rem'
+  }
   return (
-    <React.Fragment>
+    <div style={styling}>
       <h4>Socksum Threadsum</h4>
       <Friend />
-    </React.Fragment>
+    </div>
   );
 }
 

@@ -1,18 +1,23 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.css'
 import Header from "./Header";
 import Feed from "./Feed.js";
 import FriendAddList from "./FriendAddList.js";
 import Profile from "./Profile.js";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function App() {
   return (
-    <React.Fragment>
-      <Header />
-      <Profile />
-      <Feed />
-      <FriendAddList />
-    </React.Fragment>
-
+      <Container>
+        <Header />
+        <Row>
+          <Col><Profile /></Col>
+          <Col><Feed /></Col>
+          <Col><FriendAddList /></Col>
+        </Row>
+      </Container>
   );
 }
 

@@ -3,11 +3,15 @@ import ProfileBio from "./ProfileBio";
 import ProfileInfo from "./ProfileInfo";
 
 function Profile() {
+  const styling = {
+    border: '1px solid black',
+    padding: '1rem'
+  }
   return (
-    <React.Fragment>
+    <div style={styling}>
       <ProfileInfo />
       <ProfileBio />
-    </React.Fragment>
+    </div>
   );
 }
 

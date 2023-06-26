@@ -2,12 +2,16 @@ import React from "react";
 import FeedTimeline from "./FeedTimeline"
 import FeedStatusUpdate from "./FeedStatusUpdate";
 
-function Feed(){
+function Feed() {
+  const styling = {
+    border: '1px solid black',
+    padding: '1rem'
+  }
   return (
-    <React.Fragment>
+    <div style={styling}>
       <FeedStatusUpdate />
       <FeedTimeline />
-    </React.Fragment>
+    </div>
   );
 }
 

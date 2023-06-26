@@ -3,12 +3,15 @@ import HeaderLinks from "./HeaderLinks";
 import HeaderSearch from "./HeaderSearch";
 
 function Header() {
+	const styling = {
+		marginTop: '1rem'
+	}
 	return (
-		<React.Fragment>
+		<div style={styling}>
 			<HeaderLinks />
 			<HeaderSearch />
 			<hr />
-		</React.Fragment>
+		</div>
 	);
 
 }

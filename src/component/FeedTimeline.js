@@ -13,7 +13,7 @@ const feedPublicUpdateList = [
   {
     profilePic:spongebob,
     userName: "The Spongiest of Bobs",
-    statusUpdate: "Patrick is my plutonic husband 4 lyfe"
+    statusUpdate: "Patrick is my platonic husband 4 lyfe"
   },
   {
     profilePic:duckSocks,

@@ -1,10 +1,15 @@
 import React from "react";
 
-function HeaderSearch(){
+function HeaderSearch() {
+  const headerSearchStyle = {
+    float: 'right'
+  }
   return (
     <React.Fragment>
-      <input type="text" value="Search" />
-      <button type="button">Search</button>
+      <div style={headerSearchStyle}>
+        <input type="text" value="Search" />
+        <button type="button">Search</button>
+      </div>
     </React.Fragment>
   );
 }
