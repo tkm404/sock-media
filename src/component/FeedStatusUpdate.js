@@ -6,6 +6,7 @@ function FeedStatusUpdate(){
     <React.Fragment>
       <input value="What's going on" />
       <button type="submit">Submit Thread</button>
+      <br></br>
     </React.Fragment>
   );
 }
