@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Feed from "./Feed.js";
-// import FriendAddList from "FriendAddList.js";
+import FriendAddList from "./FriendAddList.js";
 import Profile from "./Profile.js";
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <Header />
       <Profile />
       <Feed />
+      <FriendAddList />
     </React.Fragment>
 
   );
