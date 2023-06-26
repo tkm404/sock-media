@@ -13,9 +13,9 @@ function App() {
       <Container>
         <Header />
         <Row>
-          <Col><Profile /></Col>
-          <Col><Feed /></Col>
-          <Col><FriendAddList /></Col>
+          <Col xs lg='3.5'><Profile /></Col>
+          <Col xs lg='6'><Feed /></Col>
+          <Col xs lg='3'><FriendAddList /></Col>
         </Row>
       </Container>
   );

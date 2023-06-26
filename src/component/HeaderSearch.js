@@ -1,4 +1,6 @@
 import React from "react";
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 
 function HeaderSearch() {
   const headerSearchStyle = {
@@ -7,8 +9,17 @@ function HeaderSearch() {
   return (
     <React.Fragment>
       <div style={headerSearchStyle}>
-        <input type="text" value="Search" />
-        <button type="button">Search</button>
+        <Form className="d-flex">
+          <Form.Control
+          type="search"
+          placeholder="Search"
+          className="me-2"
+          aria-label="Search"
+          />
+          <Button>
+            Search
+          </Button>
+        </Form>
       </div>
     </React.Fragment>
   );
